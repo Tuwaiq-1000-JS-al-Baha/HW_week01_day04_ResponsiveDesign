@@ -135,10 +135,14 @@ main h3{
 .introduction h1{
   
   font-size: 20px;
- margin: 0px;}
+ margin: 0px;
+ float:left;
+}
 
 .introduction h5{
-  font-size: 10px;}
+  font-size: 10px;
+  float:left;
+}
  
 main .part-services{
   float: center;
