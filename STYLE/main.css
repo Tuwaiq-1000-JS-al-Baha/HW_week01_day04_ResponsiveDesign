@@ -1,13 +1,16 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
 }
+
 /*  Large devices (desktops, 992px and up) */
+
 /*Header*/
-.background-over{
+
+.background-over {
   position: absolute;
   top: 0;
   left: 0;
@@ -17,108 +20,136 @@ body{
   opacity: 0.7;
 }
 
-header{
+header {
   width: 100%;
   height: 100vh;
   background-image: url("../images/HeaderBackground1920x1280.jpg");
   font-family: 'Ubuntu', sans-serif;
 }
 
-.content-header, .introduction{
+.content-header, .introduction {
   position: relative;
-
 }
 
 /*content-header part*/
-.content-header{
+
+.content-header {
   padding-top: 20px;
 }
 
-.content-header h1{
-  margin:0;
-  color:#F33E57;
+.content-header h1 {
+  margin: 0;
+  color: #F33E57;
 }
 
-#logo{
-  float:left;
+#logo {
+  float: left;
   padding-left: 5%;
 }
 
-header ul{
-  float:right;
+header ul {
+  float: right;
   padding-right: 5%;
 }
 
 header ul li {
-  float:left;
+  float: left;
   height: 50px;
   list-style: none;
-  padding-right:50px;
+  padding-right: 50px;
 }
 
 header ul li a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 /*introduction part*/
 
-
-.introduction{
+.introduction {
   margin-top: 10%;
-  padding: 10% 25% ;
-  color:white;
+  padding: 10% 25%;
+  color: white;
 }
 
-.introduction h1{
+.introduction h1 {
   font-size: 45px;
   line-height: 40px;
 }
 
-.introduction h5{
+.introduction h5 {
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
 }
 
-
-
-
 /*parts of services*/
-main > h1 {
+
+main>h1 {
   text-align: center;
-  color:#4A4C4B;
+  color: #4A4C4B;
   font-size: 60px;
 }
 
-main{
+main {
   margin: 0 auto;
   padding: 10px;
-
 }
 
-main .part-services{
+main .part-services {
   float: left;
   width: 25%;
   text-align: center;
   padding: 10px;
-
 }
 
-
-main h3{
+main h3 {
   font-size: 25px;
 }
 
-.part-services p{
+.part-services p {
   font-size: 14px;
   line-height: 22px;
   padding: 0;
-  text-align:justify;
+  text-align: justify;
 }
 
+/*  Start here  */
 
-                  /*  Start here  */
 /* --------- START THE CODE HERE ------- */
 
-
+@media screen and ( max-width: 700px) {
+  .introduction h1 {
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin: 0px;
+  }
+  .introduction h5 {
+    float: left;
+    text-align: left;
+    font-size: 12px;
+  }
+  ul li {
+    display: inline-block;
+    font-size: 15pxpx;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  main .part-services {
+    float: none;
+    display: flex;
+    padding: 0px 155px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .services-content p {
+    font-size: 13px;
+  }
+}
