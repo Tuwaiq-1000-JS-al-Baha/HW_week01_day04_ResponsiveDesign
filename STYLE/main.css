@@ -121,4 +121,85 @@ main h3{
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
 
+@media (max-width: 768px) {
+ /* header*/
+ header{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .content-header{
+   display: flex;
+   flex-direction: column;
+ }
+  .content-header ul {
+display: flex;
+flex-direction: column;
+text-align: center;
+padding-right: 120px;
+padding-bottom: 0px;
+  }
+  /*introduction*/
+  .introduction{
+    
+    display: flex;
+    padding-top: 0px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+   padding-left: 55px;
+   height: 500px;
+  
+  }
+.introduction h1{
+  font-size:25px;
+  font-weight: 9000;
+ 
+  
+  
+}
+.introduction h5{
+font-size: 15px;
+text-align: left;
+
+}
+/* main */
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.part-services{
+  width: 100%;
+  width: 777px ;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items:center; 
+}
+.services-content{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  align-self:center;
+}
+.services-name{
+  width: 400px;
+}
+.services-name h1{
+  text-align: center;
+  font-size: 30px;
+  width:;
+  font-weight: 900;
+}
+.part-services p{
+  width:350px;
+  font-size: 15px;
+  font-weight: 550;
+  text-align:justify ;
+  margin-left:0px 5px;  
+}
+}
+
 
