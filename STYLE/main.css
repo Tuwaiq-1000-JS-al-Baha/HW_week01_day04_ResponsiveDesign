@@ -1,9 +1,6 @@
-*{
-    box-sizing: border-box;
-}
 
 body{
-  margin: 0;
+  margin: 0px;
 }
 /*  Large devices (desktops, 992px and up) */
 /*Header*/
@@ -120,5 +117,54 @@ main h3{
 
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
+@media screen and (max-width: 480px) {
+  #logo {
+      font-size: 30px;
+      margin-top: 20px;
+      }
+     
+  .content-header a{
+        width: 80vw;
+        top: 0;
+        text-align:center;
+        display: inline-block;
+        margin-bottom: 0px;
+        font-size: 15px;
+        padding: 0px;}
+  
+.introduction h1{
+  
+  font-size: 20px;
+ margin: 0px;}
+
+.introduction h5{
+  font-size: 10px;}
+ 
+main .part-services{
+  float: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 125px;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.services-name{
+ display:flex;
+  flex-direction: column;}
+
+.services-content{
+  
+  flex-direction:column;
+  font-size: 9px;
+  width: 350%;}
+}
+  
+
+  
+ 
+
 
 
