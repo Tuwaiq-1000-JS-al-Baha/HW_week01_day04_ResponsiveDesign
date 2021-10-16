@@ -121,4 +121,56 @@ main h3{
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
 
+@media screen and (max-width:700px){
+  .content-header ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+
+  }
+
+  .introduction {
+    display: flex;
+    justify-self: start;
+    flex-direction: column;
+    padding: 0px 35px;
+
+  }
+
+  .introduction h1{
+    font-size: 25px;
+  }
+  .introduction h5{
+    display: flex;
+    font-size: 15px;
+    padding-top: 1px;
+  }
+
+  main {
+  flex-direction: column;
+  display:flex;
+
+  }
+
+  .services-name{
+
+    width:30vh ;
+    padding-left:10vh ;
+
+  }
+
+  .services-content{
+
+    width:40vh ;
+  }
+
+
+  .icon{
+    align-items: center;
+
+    padding-left:15vh ;
+  }
+
+  }
+
 
