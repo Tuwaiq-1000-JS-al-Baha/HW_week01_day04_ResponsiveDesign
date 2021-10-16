@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -60,7 +61,13 @@ header ul li a {
   text-decoration: none;
   color:white;
 }
-
+/*icons bars*/
+.icons{
+color: white;
+font-size: xx-large;
+padding-left: 900px;
+display: none;
+}
 /*introduction part*/
 
 
