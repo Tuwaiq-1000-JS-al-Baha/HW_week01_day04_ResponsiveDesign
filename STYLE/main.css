@@ -118,7 +118,53 @@ main h3{
 }
 
 
-                  /*  Start here  */
-/* --------- START THE CODE HERE ------- */
+@media (max-width:375px){
+  /*header {
+    display: flex;
+    width: 375px;
+  }
+  */
+  .content-header ul {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 18px;
+
+  }
+  .introduction{
+    margin-top: 10%;
+    padding-left: 50px;
+    color:white;
+    width: 375px;
+  }
+  
+  .introduction h1{
+    font-size: 25px;
+    
+  }
+  
+  .introduction h5{
+    font-size: 14px;
+    font-weight: 400;
+    width: 300px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .services-name {
+    width: 30vh;
+    padding-left: 10vh;
+  }
+  .icon {
+    align-items: center;
+    padding-left: 15vh;
+  }
+  .services-content {
+    width: 40vh;
+  }
+   
+  }
 
 
