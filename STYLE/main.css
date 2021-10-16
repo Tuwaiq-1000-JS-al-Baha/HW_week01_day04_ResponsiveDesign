@@ -121,4 +121,43 @@ main h3{
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
 
+@media  (max-width: 668px){
+
+
+
+
+  .content-header ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header ul li a {
+
+    display:block;
+    width: 30px;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .introduction {
+    font-size: 20px;
+    padding: 50% 30px ;
+  }
+  .introduction h1 {
+  font-size: 30px;
+ }
+.introduction h5{
+  font-size:15px ;
+ }
+
+main .part-services{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+  
+}
 
