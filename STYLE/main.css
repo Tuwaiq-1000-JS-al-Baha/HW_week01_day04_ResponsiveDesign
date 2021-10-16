@@ -120,5 +120,80 @@ main h3{
 
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
+@media (max-width:768px){
 
+  /*content-header part*/
+
+
+
+  .content-header{
+    position: relative;
+  }
+  .content-header h1 {
+    position: absolute;
+    font-size: 30px;
+    left: 3px;
+    top: 25px;
+  }
+  .content-header ul{
+    position: absolute;
+    left: 86px;
+    top: 57px;
+    width: 200px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content-header ul li{
+    height: 35px;
+  }
+
+  /*introduction part*/
+
+
+
+
+  .introduction{
+    position: relative;
+  }
+  .introduction h1{
+    font-size: 25px;
+    line-height: 30px;
+    position: absolute;
+    left: 35px;
+    bottom: 10px;
+    top: 170px;
+    right: 80px;
+  }
+  .introduction h5{
+    position: absolute;
+    left: 35px;
+    top: 260px;
+    right: 30px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+
+  }
+
+  /*parts of services*/
+  
+  
+  
+  
+  main h1{
+    font-size: 45px;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .services-name h1 {
+    font-size: 25px;
+  }
+ 
+}
 
