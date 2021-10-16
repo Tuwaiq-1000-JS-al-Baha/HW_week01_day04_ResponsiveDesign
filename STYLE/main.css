@@ -121,4 +121,46 @@ main h3{
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
 
+@media ( max-width: 700px){
+  .content-header h1{
+     padding: auto;  
+  }
+  .content-header ul {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+  }
+  .content-header ul li {
+    flex-direction: column;
+    display: flex;
+    float: left;
+    width: 90%;
+    list-style: none;
+    padding-left: 55px;
+    font-size: 20px;
+    margin: 200;
+  }
+   .content-header ul li a {
+   text-decoration: none;
+  }
+  
+
+  
+  .introduction{
+    font-size: 30px;
+}
+  .introduction h1{
+      text-align: left;
+      font-size: 40px;
+      padding-top: 100px;
+}
+   .introduction h5{
+  text-align: left;
+  font-size: 15px;
+  padding-top: 5px;
+}
+}
+
 
