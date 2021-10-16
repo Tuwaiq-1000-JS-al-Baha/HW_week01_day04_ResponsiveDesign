@@ -121,4 +121,70 @@ main h3{
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
 
+/*  Small devices (phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+  #logo{
+    float: none;
+  }
+  header ul{
+    float: none;
+  }
+  header ul li {
+    float: none;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+  }
+  .introduction{
+    margin: 0;
+    padding: 30px;
+    text-align: left;
+  }
+  .introduction h1{
+    padding-top: 5px;
+    font-size: 25px;
+  }
+  .introduction h5{
+    font-size: 15px;
+  }
+  .services-name{    
+    width: 30vh ;
+    padding-left: 10vh;
+  }
+main{
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  align-items: center;
+  padding-left: 15vh;
+}
+.services-content{
+  width: 40vh;
+}
+}
 
+@media only screen and (min-width: 577px) and (max-width:1024px) {
+  main .part-services{
+    display: flex;
+    width: 50%;
+    float:left;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    width: 100% ; 
+  }
+
+  .part-services p{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .services-content{
+    display: flex;
+    width: 20vh;
+    text-align: center;
+    justify-content: center;
+  }
+}
