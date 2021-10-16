@@ -122,3 +122,72 @@ main h3{
 /* --------- START THE CODE HERE ------- */
 
 
+@media (max-width: 768px) {
+.introduction  {
+  display: inline;
+  float: none;
+  width: auto;
+  height: 0px;
+  color:blanchedalmond;
+  margin: 900px;
+  font-family: 'titillium';
+  
+}
+.introduction h5 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.part-services {
+  float: none;
+}
+
+
+.content-header ul {
+  display: flex;
+  flex-direction: column;
+padding: 0px 0px;
+margin-right: 0%;
+
+}
+.content-header a {
+  color: #e1bb80;
+  font-size: 20px;
+  margin: auto;
+}
+
+.content-header h1 {
+  
+  text-align: justify;
+  
+}
+
+#logo{
+  float:left;
+  padding-left: 0%;
+}
+
+.content-header h1{
+  margin:0;
+  color:#a47e1b;
+  
+}
+
+main .part-services{
+  display: inline;
+  float: none;
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+  
+
+}
+.part-services p{
+  font-size: 20px;
+  line-height: 26px;
+  padding: 0;
+  text-align:justify;
+  font-family: 'titillium';
+}
+
+}
+ 
