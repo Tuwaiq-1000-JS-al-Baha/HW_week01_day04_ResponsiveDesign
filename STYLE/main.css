@@ -121,4 +121,39 @@ main h3{
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
 
-
+@media
+(max-width: 768px){
+  header{
+    background-position: center;
+    background-size: cover;
+  }
+  .content-header {
+   display: flex;
+    flex-direction: column;
+  }
+  .content-header ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .introduction{
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+  .introduction h1{
+    display: flex;
+    font-size: 20px;
+  }
+  .introduction h5{
+    font-size: 13px;
+  } 
+ 
+  main {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+  }
+ 
+}
