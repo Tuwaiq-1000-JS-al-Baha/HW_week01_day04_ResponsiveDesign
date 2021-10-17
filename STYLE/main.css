@@ -120,7 +120,19 @@ main h3{
 
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
- @media ( max-width : 768px ){
+ @media ( max-width : 768px ){ 
+   .introduction{
+
+    padding : 10% 40px;}
+   .introduction h1{
+  font-size: 35px;
+}
+header ul{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
-} 
+
+  
+}
 
